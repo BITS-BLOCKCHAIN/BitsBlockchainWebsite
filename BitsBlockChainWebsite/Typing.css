@@ -1,0 +1,42 @@
+/* src/App.css */
+
+.App {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.typing-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+    sans-serif;
+  font-size: 50px;
+  border-right: 2px solid transparent;
+  flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(0, 0, 181);
+}
+
+@keyframes typing-static {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-dynamic {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .typing-text {
+    font-size: 24px;
+  }
+}
