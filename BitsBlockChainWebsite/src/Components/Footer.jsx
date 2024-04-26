@@ -3,6 +3,17 @@ import { Link } from "react-router-dom";
 
 
 const footer=()=>{
+  const smoothScrollToTop = (e) => {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+const smoothScrollToSection = (e, sectionId) => {
+    e.preventDefault();
+    const sectionElement = document.getElementById(sectionId);
+    if (sectionElement) {
+        sectionElement.scrollIntoView({ behavior: 'smooth' });
+    }
+};
    return <>
    <div className="grid grid-cols-5  align-center pt-10 border-2 px-20 h-80 leading-8 pb-7">
         <div className="flex flex-col">
@@ -12,12 +23,12 @@ const footer=()=>{
       <div className="flex flex-col ">
        <h2 className="text-xl font-semibold">Quick Nav</h2>
        <ul>
-        <li>About Us</li>
-        <li>Projects</li>
-        <li>Our Team</li>
-        <li>Upcoming Events</li>
-        <li>Contact us</li>
-       </ul>
+       <li><a href="#home" onClick={(e)=>smoothScrollToTop(e)}>Home</a></li>
+                        <li><a href="#about-us" onClick={(e) => smoothScrollToSection(e, 'about-us')}>About Us</a></li>
+                        <li><a href="#info"  onClick={(e) => smoothScrollToSection(e, 'info')}>Info</a></li>
+                        <li><a href="#our-team" onClick={(e) => smoothScrollToSection(e, 'our-team')}>Our Team</a></li>
+                        <li><a href="#contact-us"  onClick={(e) => smoothScrollToSection(e, 'contact-us')}>Contact Us</a></li>
+                        </ul>
       </div>
       <div className="flex flex-col ">
        <h2 className="text-xl font-semibold">Resources</h2>

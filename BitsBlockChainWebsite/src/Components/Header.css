@@ -1,5 +1,5 @@
 .header-container {
-   display: flex;
+    display: flex;
     align-items: center;
     padding: 10px 20px;
     border-bottom: 1px solid #000000;
@@ -9,8 +9,8 @@
 }
 
 .logo-container {
-    width: 100px; /* Fixed width for the logo */
-    flex-shrink: 0; /* Prevent the logo from shrinking */
+    width: 100px;
+    flex-shrink: 0; 
 }
 
 .nav-menu {
@@ -27,10 +27,16 @@
 }
 
 .nav-menu a {
-    padding: 0 15px; 
+    padding: 5px 15px; 
     text-decoration: none;
     color: inherit;
     overflow-x: hidden;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+.nav-menu a:hover{
+    color:#3785c9;
+    border-radius: 5px;
 }
 .info-column{
     text-align: center;
