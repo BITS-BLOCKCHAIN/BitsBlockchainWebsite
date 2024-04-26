@@ -24,3 +24,14 @@
     margin-bottom: 30px;
    
 }
+
+@media (max-width: 768px) {
+   .info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .info-column{
+    width:100%;
+   }
+}  
