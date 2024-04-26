@@ -24,9 +24,9 @@ const TeamMembers=[
        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex."
     },
     {
-      name:"Viven",
+      name:"Viren Singh",
       LinkedIn:"",
-      image:"../../images/DevanshGoel.jpeg",
+      image:"../../images/Viren.jpg",
       Github:"",
       position:"Frontend Developer",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex."
