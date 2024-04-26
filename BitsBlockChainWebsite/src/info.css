@@ -17,6 +17,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 50px 8vw;
+    padding-top: 20px;
 }
 .info-column h2 {
     font-size: 32px;
@@ -24,7 +25,6 @@
     margin-bottom: 30px;
    
 }
-
 @media (max-width: 768px) {
    .info-container{
     display: flex;

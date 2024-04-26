@@ -1,13 +1,19 @@
 .header-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding: 10px 20px;
-    border-bottom: 1px solid #000000;
     z-index: 1000;
     max-width: 100%;
-    overflow-x: hidden;
 }
-
+.menu-open{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #000000;
+    }
 .logo-container {
     width: 100px;
     flex-shrink: 0; 
@@ -15,6 +21,7 @@
 
 .nav-menu {
     display: flex;
+    flex-direction: row;
     flex-grow: 1; 
     justify-content: space-between; 
     margin: 0;
@@ -41,3 +48,22 @@
 .info-column{
     text-align: center;
 }
+
+
+@media (max-width: 768px) {
+.nav-menu-open{
+    flex-direction: column;
+}
+.nav-menu-open a{
+font-size: 20px;
+}
+.header-container-2{
+    margin-left: 20px;
+}
+.header-container{
+    justify-content:space-between;
+}
+.nav-menu-open li {
+    margin-bottom: 20px;
+}
+ }  
