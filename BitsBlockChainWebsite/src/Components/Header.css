@@ -1,0 +1,37 @@
+.header-container {
+   display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #000000;
+    z-index: 1000;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.logo-container {
+    width: 100px; /* Fixed width for the logo */
+    flex-shrink: 0; /* Prevent the logo from shrinking */
+}
+
+.nav-menu {
+    display: flex;
+    flex-grow: 1; 
+    justify-content: space-between; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    list-style: none;
+    text-align: center;
+}
+
+.nav-menu a {
+    padding: 0 15px; 
+    text-decoration: none;
+    color: inherit;
+    overflow-x: hidden;
+}
+.info-column{
+    text-align: center;
+}
