@@ -1,0 +1,62 @@
+.about-us {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 50px 20px;
+  opacity: 0;
+  animation: fadeIn ease forwards;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .about-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .about-image {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}
