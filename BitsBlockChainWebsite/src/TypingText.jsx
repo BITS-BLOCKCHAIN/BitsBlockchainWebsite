@@ -60,7 +60,7 @@ const TypingText = ({ dynamicTexts }) => {
                 )}
             </div>
             <div className="image-column">
-                <img src="/images/image2.png" alt="Random Image" className="typing-image" />
+                <img src="/images/image2.png"  className="typing-image" />
             </div>
         </div>
     );
