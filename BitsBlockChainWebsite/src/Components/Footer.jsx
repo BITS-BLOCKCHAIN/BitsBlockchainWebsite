@@ -1,7 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { useState } from "react";
+import { useEffect } from "react";
 const Footer = () => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const smoothScrollToTop = (e) => {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -16,9 +31,8 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 py-6 px-4">
       <div className="container min-w-full px-4">
-        <div className="md:flex md:flex-row md:justify-evenly md:align-middle md:my-10 xl:mt-10 xl:mx-20 ">
-        <div className="flex flex-row align-middle justify-between xs:justify-around my-10 md:flex md:flex-row md:my-0">
-        <div className="text-white px-5 leading-8 md:mr-20">
+        <div className="flex flex-row align-middle justify-between xs:justify-around xs:my-10 md:flex md:flex-row md:my-5">
+        <div className="text-white xs:px-5 leading-8 md:mr-20">
           <h2 className="font-bold text-xl mb-4">Quick Nav</h2>
           <ul>
             <li>
@@ -58,7 +72,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="text-white px-5 leading-8  md:mx-20">
+        <div className="text-white xs:px-5 leading-8  md:mx-20">
           <h2 className="font-bold text-xl mb-4">Resources</h2>
           <ul>
             <li>
@@ -99,8 +113,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-         </div>
-        <div className="text-white">
+        {(windowWidth >= 600) && (<div className="text-white">
           <h2 className="font-bold text-lg mb-4 ">Feedback</h2>
           <textarea
             className="w-full h-24 bg-gray-700 rounded-md p-2 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-300"
@@ -109,8 +122,19 @@ const Footer = () => {
           <button className="mt-2 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">
             Send
           </button>
-        </div>
-        </div>
+        </div>)}
+         </div>
+       {(windowWidth <= 600) && (<div className="text-white">
+          <h2 className="font-bold text-lg mb-4 ">Feedback</h2>
+          <textarea
+            className="w-full h-24 bg-gray-700 rounded-md p-2 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-300"
+            placeholder="Type your message here..."
+          ></textarea>
+          <button className="mt-2 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">
+            Send
+          </button>
+        </div>)}
+        
       </div>
       
     </footer>
