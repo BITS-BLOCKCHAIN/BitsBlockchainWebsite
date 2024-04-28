@@ -136,7 +136,11 @@ const Footer = () => {
         </div>)}
         
       </div>
-      
+      <div className="container min-w-full px-4">
+        <p class="text-white opacity-50">
+          2024 Copyright @bitsblockchain. All Rights Reserved
+        </p>
+      </div>
     </footer>
   );
 };
