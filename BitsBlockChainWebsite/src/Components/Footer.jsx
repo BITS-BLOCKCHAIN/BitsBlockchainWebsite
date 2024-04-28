@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         <div className="text-white">
-          <h2 className="font-bold text-lg mb-4">Quick Nav</h2>
+          <h2 className="font-bold text-xl mb-4">Quick Nav</h2>
           <ul>
             <li>
               <a href="#home" onClick={(e) => smoothScrollToTop(e)}>
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="text-white">
-          <h2 className="font-bold text-lg mb-4">Resources</h2>
+          <h2 className="font-bold text-xl mb-4">Resources</h2>
           <ul>
             <li>
               <a
