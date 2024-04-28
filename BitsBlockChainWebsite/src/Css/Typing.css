@@ -1,5 +1,5 @@
-@import url('../kola.css');
-@import url('../striper.css');
+@import url('./kola.css');
+@import url('./striper.css');
 .parent-container {
   display: flex;
   flex-direction: row;

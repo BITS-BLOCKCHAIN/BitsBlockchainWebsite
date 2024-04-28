@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Typing.css";
+import "../Css/Typing.css";
 
 const TypingText = ({ dynamicTexts }) => {
     const staticText = "Welcome to";
@@ -60,7 +60,7 @@ const TypingText = ({ dynamicTexts }) => {
                 )}
             </div>
             <div className="image-column">
-                <img src="/images/image2.png"  className="typing-image" />
+                <img src="/images/clockTower.png"  className="typing-image" />
             </div>
         </div>
     );

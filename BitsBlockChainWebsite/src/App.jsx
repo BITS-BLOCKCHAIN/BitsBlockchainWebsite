@@ -2,10 +2,10 @@ import { useState } from 'react'
 import Footer from './Components/Footer'
 import TeamComponent from './Components/TeamComponent'
 import Header from './Components/Header';
-import AboutUs from './about';
-import Info from './info';
-import TypingText from "./TypingText";
-import "./Typing.css";
+import AboutUs from './Components/about';
+import Info from './Components/info';
+import TypingText from "./Components/TypingText";
+import "./Css/Typing.css";
 function App() {
   const [count, setCount] = useState(0)
 
