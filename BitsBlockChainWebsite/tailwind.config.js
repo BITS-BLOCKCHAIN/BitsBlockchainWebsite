@@ -10,6 +10,13 @@ export default {
         'kola': ['Kola', 'sans-serif'],
     },
     },
+    screens:{
+      'xs':"500px",
+      'sm':"700px",
+      "md":"950px",
+      "xl":"1200px",
+      "2xl":"1280px"
+    }
   },
   plugins: [],
 }

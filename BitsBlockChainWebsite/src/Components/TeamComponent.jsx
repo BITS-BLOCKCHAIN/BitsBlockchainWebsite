@@ -3,9 +3,9 @@ import CardComponent from "./TeamMemberCard";
 
 const TeamComponent=()=>{
     return (
-        <div className="grid md:grid-cols-3 align-center sm:px-20 mt-20 gap-8 mb-10 ">
+        <div className="mx-5 space-y-4 my-10 px-5 xs:grid xs:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 xl:mx-8">
             {TeamMembers.map((member, index) => (
-                <div key={index}  className="rounded-xl grid grid-cols-5 border-black border-2 px-5 py-5 h-6/6">
+                <div key={index}  className="border-2 border-black rounded-lg p-3 xs:mt-4 xs:mx-3">
                     <CardComponent {...member} />
                 </div>
             ))}
