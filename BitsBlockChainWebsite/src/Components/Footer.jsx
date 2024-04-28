@@ -33,7 +33,7 @@ const smoothScrollToSection = (e, sectionId) => {
       <div className="flex flex-col ">
        <h2 className="text-xl font-semibold">Resources</h2>
        <ul>
-        <li>Learning Resources</li>
+        <li><a href="https://bitsblockchain.notion.site/Resources-for-blockchain-enthusiasts-d69a20cf5402406cb709dfabe4150c87" target="_blank">Learning Resources</a></li>
         <li>Discord Link</li>
         <li>Hackathons</li>
         <li>Web3 Careers</li>
