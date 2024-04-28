@@ -34,7 +34,8 @@ const smoothScrollToSection = (e, sectionId) => {
        <h2 className="text-xl font-semibold">Resources</h2>
        <ul>
         <li><a href="https://bitsblockchain.notion.site/Resources-for-blockchain-enthusiasts-d69a20cf5402406cb709dfabe4150c87" target="_blank">Learning Resources</a></li>
-        <li><a href="https://bitsblockchain.notion.site/Resources-for-blockchain-enthusiasts-d69a20cf5402406cb709dfabe4150c87" target="_blank">Discord Link</a></li>
+        <li><a href="https://chat.whatsapp.com/EjGBBpK0cAhBrI7jvPTxWh" target="_blank">Discord Link</a></li>
+        <li><a href="https://discord.gg/AXscq35N" target="_blank">Unidao Discord</a></li>
         <li><a href="https://ethglobal.com/" target="_blank">Hackathons</a></li>
         <li><a href="https://immunefi.com/boost/" target="_blank">Bug Bounties</a></li>
         <li><a href="https://web3.career/" target="_blank">Web3 Careers</a></li>
