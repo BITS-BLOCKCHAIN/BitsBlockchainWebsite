@@ -14,13 +14,14 @@ const Footer = () => {
     }
   };
   return (
-    <footer className="bg-gray-800 py-6">
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 px-4">
-        <div className="text-white">
-          <h2 className="font-bold text-3xl mb-4">Bits Blockchain</h2>
+    <footer className="bg-gray-800 py-6 px-4">
+      <div className="container min-w-full px-4">
+        <div className="text-white text-center">
+          <h2 className="font-bold text-3xl mb-4 md:text-5xl mt-10">Bits Blockchain</h2>
         </div>
-
-        <div className="text-white">
+        <div className="md:flex md:flex-row md:justify-evenly md:align-middle md:my-10 xl:mt-20 xl:mx-20 ">
+        <div className="flex flex-row align-middle justify-between xs:justify-around my-10 md:flex md:flex-row md:my-0">
+        <div className="text-white px-5 leading-8 md:mr-20">
           <h2 className="font-bold text-xl mb-4">Quick Nav</h2>
           <ul>
             <li>
@@ -60,7 +61,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="text-white">
+        <div className="text-white px-5 leading-8  md:mx-20">
           <h2 className="font-bold text-xl mb-4">Resources</h2>
           <ul>
             <li>
@@ -101,7 +102,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
+         </div>
         <div className="text-white">
           <h2 className="font-bold text-lg mb-4">Feedback</h2>
           <textarea
@@ -112,7 +113,9 @@ const Footer = () => {
             Send
           </button>
         </div>
+        </div>
       </div>
+      
     </footer>
   );
 };
