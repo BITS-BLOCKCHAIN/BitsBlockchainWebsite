@@ -16,10 +16,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 py-6 px-4">
       <div className="container min-w-full px-4">
-        <div className="text-white text-center">
-          <h2 className="font-bold text-3xl mb-4 md:text-5xl mt-10">Bits Blockchain</h2>
-        </div>
-        <div className="md:flex md:flex-row md:justify-evenly md:align-middle md:my-10 xl:mt-20 xl:mx-20 ">
+        <div className="md:flex md:flex-row md:justify-evenly md:align-middle md:my-10 xl:mt-10 xl:mx-20 ">
         <div className="flex flex-row align-middle justify-between xs:justify-around my-10 md:flex md:flex-row md:my-0">
         <div className="text-white px-5 leading-8 md:mr-20">
           <h2 className="font-bold text-xl mb-4">Quick Nav</h2>
@@ -104,7 +101,7 @@ const Footer = () => {
         </div>
          </div>
         <div className="text-white">
-          <h2 className="font-bold text-lg mb-4">Feedback</h2>
+          <h2 className="font-bold text-lg mb-4 ">Feedback</h2>
           <textarea
             className="w-full h-24 bg-gray-700 rounded-md p-2 text-gray-100 placeholder-gray-400 focus:outline-none focus:ring focus:border-blue-300"
             placeholder="Type your message here..."
