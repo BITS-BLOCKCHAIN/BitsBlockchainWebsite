@@ -34,14 +34,15 @@ const smoothScrollToSection = (e, sectionId) => {
        <h2 className="text-xl font-semibold">Resources</h2>
        <ul>
         <li><a href="https://bitsblockchain.notion.site/Resources-for-blockchain-enthusiasts-d69a20cf5402406cb709dfabe4150c87" target="_blank">Learning Resources</a></li>
-        <li>Discord Link</li>
-        <li>Hackathons</li>
-        <li>Web3 Careers</li>
+        <li><a href="https://bitsblockchain.notion.site/Resources-for-blockchain-enthusiasts-d69a20cf5402406cb709dfabe4150c87" target="_blank">Discord Link</a></li>
+        <li><a href="https://ethglobal.com/" target="_blank">Hackathons</a></li>
+        <li><a href="https://immunefi.com/boost/" target="_blank">Bug Bounties</a></li>
+        <li><a href="https://web3.career/" target="_blank">Web3 Careers</a></li>
        </ul>
       </div>
       <div className="flex flex-col justify-start col-span-2">
         <h2 className="text-xl font-semibold">Feedback</h2>
-        <h4>Post-ironic portland shabby chic</h4>
+        <h4>Your valuable suggestions are highly appreciated</h4>
         <label>Message</label>
         <input type="text" className="h-5/6 p-3 rounded-lg border-2 border-black text-sm" placeholder="Enter your msg..."></input>
         <button type="submit" className="bg-white mt-2 w-2/5 border-2 border-black rounded-lg self0-center">SUBMIT</button>
