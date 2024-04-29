@@ -1,97 +1,94 @@
 @import url('./kola.css');
 @import url('./striper.css');
+
 .parent-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; 
-  margin: 0 auto;
-  width: 75%;
-  margin-top: 100px;
- }
-.static-text{
-  font-family:'Kola-Regular',sans-serif;
-  font-size: 300%;
-  height: 20%;
-  margin-bottom: 10px;
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+    @media (max-width: 900px) {
+        grid-template-columns: 1fr;
+    }
 }
-.image-column img{
-display: flex;
-justify-content: end;
-width: 50vw;
+
+.static-text {
+    font-family: 'Kola-Regular', sans-serif;
+    font-size: 3rem;
+    max-height: 20%;
+    margin-bottom: 30px;
+    
 }
+
+.image-column img {
+    width: 100%;
+    height: auto;
+}
+
 .text-column {
-  max-width: 30%;
-  white-space: normal; 
-  word-wrap:normal;
-  height:400px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
+   max-width: 70%;
+    white-space:normal;
+    word-wrap: normal;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
+
 .typing-text {
-  font-family:'Striper-Regular',sans-serif;
-  margin-top: 20px;
-  height: 80%;
-  font-size: 400%;
-  flex-direction: column;
-  white-space: normal;
-  color:hsl(209, 98%, 19%);
+    font-family: 'Striper-Regular', sans-serif;
+    margin-top: 20px;
+    height: 80%;
+    font-size: 3.5rem;
+    flex-direction: column;
+    white-space: normal;
+    color: hsl(209, 98%, 19%);
+    overflow-wrap: break-word;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
+
 .background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-  filter: blur(4px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: blur(4px);
 }
 
 @keyframes typing-static {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 @keyframes typing-dynamic {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
-@media (max-width: 1250px){
-  .image-column img{
-    width:30vw;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .typing-text {
-    font-size: 300%;
-    height:60%;
-    text-align: center;
-  }
-  .image-column img{
-    width:60vw;
-    height: auto;
-  }
-  .static-text{
-    text-align: center;
-    font-size: 200%;
-  }
-  .parent-container{
-    flex-direction: column;
-    margin-top: 20px;
-    padding: 0;
-  }
+@media (max-width: 900px){
   .text-column{
-    height: 300px;
-    max-width: 100%;
+    height: 400px;
   }
+}
+@media (max-width: 768px){
+.static-text{
+  font-size: 2rem;
+}
+.typing-text{
+  font-size:2.5rem ;
+}
 }
