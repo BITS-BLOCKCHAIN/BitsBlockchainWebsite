@@ -46,9 +46,7 @@ const TypingText = ({ dynamicTexts }) => {
     return (
         <div className="parent-container mt-20 pb-20 pl-10 pr-10 pt-20 shadow-xl border-4 rounded-xl"
         style={{ borderColor: 'rgb(31 41 55)' }}>
-         <video className="background-video" autoPlay loop muted>
-                <source src='/images/backvideo.mp4' type="video/mp4" />
-            </video>
+         
             <div className="text-column">
                 <div className="static-text ">
                     {staticTextTyped}
@@ -60,7 +58,9 @@ const TypingText = ({ dynamicTexts }) => {
                 )}
             </div>
             <div className="image-column">
+            
                 <img src="/images/clockTower.png"  className="typing-image" />
+                
             </div>
         </div>
     );
