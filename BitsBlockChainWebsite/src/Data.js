@@ -31,7 +31,7 @@ const TeamMembers = [
     name: "Viren Singh",
     LinkedIn: "",
     image: "../../images/Viren.jpg",
-    Github: "",
+    Github: "https://github.com/Anonymous2512",
     position: "Full Stack Developer",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
