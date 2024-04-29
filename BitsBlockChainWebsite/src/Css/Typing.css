@@ -10,6 +10,7 @@
     align-items: center;
     margin: 0 auto;
     width: 75%;
+  
     @media (max-width: 900px) {
         grid-template-columns: 1fr;
     }
