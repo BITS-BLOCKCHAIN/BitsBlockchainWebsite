@@ -133,6 +133,16 @@ const TeamMembers = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
   {
+    name: "Sanchit",
+    LinkedIn:
+      "https://www.linkedin.com/in/sanchit-goyal-6570a1282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: "../../images/sanchit.jpg",
+    Github: "https://github.com/sanchit-4",
+    position: "Development Team",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
+  },
+  {
     name: "Divyansh Jha",
     LinkedIn: "https://www.linkedin.com/in/divyaanshjha",
     image: "../../images/divyansh.jpeg",
