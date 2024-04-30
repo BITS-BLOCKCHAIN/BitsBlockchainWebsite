@@ -88,13 +88,13 @@ const Header = () => {
                     href="https://bits-blockchain.notion.site/BITS-Blockchain-Development-Task-1-Frontend-cc11f0969ee84daa8c8df4b1eb780692"
                     target="_blank"
                   >
-                    Resources
+                    Learning Resources
                   </a>
                 </li>
                 <li>
                   <a>
                     <select onChange={handleChange}>
-                      <option value="#">Earnings</option>
+                      <option value="#">Earning Resources</option>
                       <option value="https://superteam.fun/">SuperTeam</option>
                       <option value="https://jobs.solana.com/jobs">
                         Solana

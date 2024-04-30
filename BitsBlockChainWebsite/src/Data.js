@@ -94,17 +94,6 @@ const TeamMembers = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
   {
-    name: "Shubham",
-    LinkedIn:
-      "https://www.linkedin.com/in/shubham-mishra-61383b228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: "../../images/shubham mishra.jpg",
-    Github: "https://github.com/ShubhamX90",
-    position: "Development Core",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
-  },
-
-  {
     name: "Arnav",
     LinkedIn: "",
     image: "../../images/arnav.jpg",
@@ -114,11 +103,22 @@ const TeamMembers = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
   {
+    name: "Shubham",
+    LinkedIn:
+      "https://www.linkedin.com/in/shubham-mishra-61383b228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: "../../images/shubham mishra.jpg",
+    Github: "https://github.com/ShubhamX90",
+    position: "Development Team",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
+  },
+
+  {
     name: "Satyam",
     LinkedIn: "www.linkedin.com/in/satyam-811543275",
     image: "../../images/satyam.jpg",
     Github: "https://github.com/Satyamk33",
-    position: "Developer",
+    position: "Development team",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
