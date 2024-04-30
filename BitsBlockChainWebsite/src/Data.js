@@ -11,8 +11,8 @@ const TeamMembers = [
   {
     name: "Devansh Goel",
     image: "../../images/DevanshGoel.jpeg",
-    LinkedIn: "",
-    Github: "",
+    LinkedIn: "https://www.linkedin.com/in/devansh-goel-085504201/",
+    Github: "https://github.com/Devanshgoel-123",
     position: "Full Stack Developer",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
@@ -23,7 +23,7 @@ const TeamMembers = [
     LinkedIn:
       "https://www.linkedin.com/in/pranay-jalan254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     Github: "https://github.com/pranayjalan254",
-    position: " Frontend Developer",
+    position: "Frontend Developer",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },

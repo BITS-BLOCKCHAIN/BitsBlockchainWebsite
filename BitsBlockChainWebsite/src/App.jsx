@@ -26,6 +26,7 @@ function App() {
                 <Info/>
             </div>
             <div id="our-team">
+               <h1 className="text-3xl font-kola text-center">Meet Our Team</h1>
                 <TeamComponent />
             </div>
             <div id="contact-us">
