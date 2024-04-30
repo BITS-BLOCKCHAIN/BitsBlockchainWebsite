@@ -18,7 +18,7 @@
 
 .static-text {
     font-family: 'Kola-Regular', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     max-height: 20%;
     margin-bottom: 30px;
     
@@ -37,13 +37,15 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    
+    align-items: center;
 }
 
 .typing-text {
     font-family: 'Striper-Regular', sans-serif;
     margin-top: 20px;
     height: 80%;
-    font-size: 3.5rem;
+    font-size: 4rem;
     flex-direction: column;
     white-space: normal;
     color: hsl(209, 98%, 19%);
@@ -91,5 +93,8 @@
 }
 .typing-text{
   font-size:2.5rem ;
+}
+.text-column{
+    max-width: 100%;
 }
 }
