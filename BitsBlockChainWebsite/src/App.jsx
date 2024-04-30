@@ -1,3 +1,4 @@
+import './Css/striper.css';
 import { useState } from 'react'
 import Footer from './Components/Footer'
 import TeamComponent from './Components/TeamComponent'
@@ -6,6 +7,7 @@ import AboutUs from './Components/about';
 import Info from './Components/info';
 import TypingText from "./Components/TypingText";
 import "./Css/Typing.css";
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,7 +16,7 @@ function App() {
     <Header/>
     <TypingText
         dynamicTexts={[
-          "BITS BlockChain Hub",
+          "BITS BlockChain Club",
           "The World of Web3 ",
           "The Crypto Age",
         ]}
@@ -26,7 +28,7 @@ function App() {
                 <Info/>
             </div>
             <div id="our-team">
-               <h1 className="text-3xl font-kola text-center">Meet Our Team</h1>
+               <h1 className="text-3xl striper-font text-center">Meet Our Team</h1>
                 <TeamComponent />
             </div>
             <div id="contact-us">
