@@ -53,13 +53,7 @@ const Info = () => {
         <h2>Upcoming Events</h2>
         <Carousel {...carouselSettings}>
           <div className="carousel-item">
-            <img src="https://picsum.photos/803/400" alt="Random Event 1" />
-          </div>
-          <div className="carousel-item">
-            <img src="https://picsum.photos/804/400" alt="Random Event 2" />
-          </div>
-          <div className="carousel-item">
-            <img src="https://picsum.photos/805/400" alt="Random Event 3" />
+            <img src="\images\blockchain week.png" alt="bits blockchain week" />
           </div>
         </Carousel>
       </div>
