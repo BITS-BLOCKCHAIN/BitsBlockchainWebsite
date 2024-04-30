@@ -2,8 +2,8 @@ const TeamMembers = [
   {
     name: "Dhruv Varshney",
     image: "../../images/dhruv varshney.png",
-    LinkedIn: "",
-    Github: "",
+    LinkedIn: "https://www.linkedin.com/in/dhruvvarshney77/",
+    Github: "https://github.com/Dhruv-Varshney-developer",
     position: "President",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
