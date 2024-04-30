@@ -75,24 +75,26 @@ const Footer = () => {
             </ul>
           </div>
           <div className="text-white xs:px-5 leading-8 md:mr-20">
-            <h2 className="font-bold text-xl mb-4">Hackathons</h2>
+            <h2 className="font-bold text-xl mb-4 hidden lg:block mb:block sm:block xs:hidden">
+              Hackathons
+            </h2>
             <ul>
-              <li>
+              <li className="hidden lg:block mb:block sm:block xs:hidden">
                 <a href="https://ethglobal.com/" target="_blank">
                   EthGlobal
                 </a>
               </li>
-              <li>
+              <li className="hidden lg:block mb:block sm:block xs:hidden">
                 <a href="https://www.colosseum.org/renaissance" target="_blank">
                   Solana
                 </a>
               </li>
-              <li>
+              <li className="hidden lg:block mb:block sm:block xs:hidden">
                 <a href="https://superteam.fun/" target="_blank">
                   Solana Projects
                 </a>
               </li>
-              <li>
+              <li className="hidden lg:block mb:block sm:block xs:hidden">
                 <a
                   href="https://polygon.technology/blog-tags/hackathons"
                   target="_blank"
