@@ -118,7 +118,7 @@ const TeamMembers = [
     LinkedIn: "www.linkedin.com/in/satyam-811543275",
     image: "../../images/satyam.jpg",
     Github: "https://github.com/Satyamk33",
-    position: "Development team",
+    position: "Development Team",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
