@@ -9,12 +9,12 @@ import TypingText from "./Components/TypingText";
 import "./Css/Typing.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-    <Header/>
-    <TypingText
+      <Header />
+      <TypingText
         dynamicTexts={[
           "BITS BlockChain Club",
           "The World of Web3 ",
@@ -39,4 +39,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

@@ -53,7 +53,29 @@ const Info = () => {
         <h2>Upcoming Events</h2>
         <Carousel {...carouselSettings}>
           <div className="carousel-item">
-            <img src="\images\blockchain week.png" alt="bits blockchain week" />
+            <img
+              src="https://hacknovate5.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F43c3d238befe4bbfa9e4dc482a4f7b53%2Fassets%2Fcover%2F578.png&w=1440&q=100"
+              alt="bits blockchain week"
+            />
+          </div>
+
+          <div className="carousel-item">
+            <img src="https://hackfest-24.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F6a6159514c48487db51838f0e650af4e%2Fassets%2Fcover%2F844.png&w=1440&q=100" />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="https://codeclash24.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fd7eb4706dd354117aa214b3721c12914%2Fassets%2Fcover%2F242.png&w=1440&q=100"
+              alt="bits blockchain week"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              src="https://hacikfy.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F6939835a26fa459abd678aeb8b868304%2Fassets%2Fcover%2F985.png&w=1440&q=100"
+              alt="bits blockchain week"
+            />
+          </div>
+          <div className="carousel-item">
+            <img src="images/blockchain week.png" alt="bits blockchain week" />
           </div>
         </Carousel>
       </div>
