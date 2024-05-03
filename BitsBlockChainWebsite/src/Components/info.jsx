@@ -55,6 +55,9 @@ const Info = () => {
           <div className="carousel-item">
             <img src="images/blockchain week.png" alt="bits blockchain week" />
           </div>
+          <div className="carousel-item">
+            <img src="images/recruit.png" alt="bits blockchain week" />
+          </div>
         </Carousel>
       </div>
     </div>

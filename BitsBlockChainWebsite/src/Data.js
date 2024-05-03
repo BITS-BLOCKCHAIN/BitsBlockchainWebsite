@@ -4,6 +4,15 @@ const TeamMembers = [
     image: "../../images/dhruv varshney.png",
     LinkedIn: "https://www.linkedin.com/in/dhruvvarshney77/",
     Github: "https://github.com/Dhruv-Varshney-developer",
+    position: "Former President",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
+  },
+  {
+    name: "Rudraksh",
+    LinkedIn: "linkedin.com/in/rudraksh-singhal-31a197253/",
+    image: "../../images/rudraksh.jpg",
+    Github: "github.com/rabbity-00",
     position: "President",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
@@ -13,7 +22,7 @@ const TeamMembers = [
     image: "../../images/DevanshGoel.jpeg",
     LinkedIn: "https://www.linkedin.com/in/devansh-goel-085504201/",
     Github: "https://github.com/Devanshgoel-123",
-    position: "Full Stack Developer",
+    position: "Technical Lead",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
@@ -23,7 +32,16 @@ const TeamMembers = [
     LinkedIn:
       "https://www.linkedin.com/in/pranay-jalan254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     Github: "https://github.com/pranayjalan254",
-    position: "Frontend Developer",
+    position: "Design & Partnerships Lead",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
+  },
+  {
+    name: "Sidak Malhotra",
+    LinkedIn: "https://www.linkedin.com/in/sidak-malhotra-0743b4183/",
+    image: "../../images/sidak.jpg",
+    Github: "https://github.com/Psyduck-m",
+    position: "Outreach & Operations Lead",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
@@ -36,24 +54,7 @@ const TeamMembers = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
   },
-  {
-    name: "Rudraksh",
-    LinkedIn: "linkedin.com/in/rudraksh-singhal-31a197253/",
-    image: "../../images/rudraksh.jpg",
-    Github: "github.com/rabbity-00",
-    position: "Head, Blockchain Week",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
-  },
-  {
-    name: "Sidak Malhotra",
-    LinkedIn: "https://www.linkedin.com/in/sidak-malhotra-0743b4183/",
-    image: "../../images/sidak.jpg",
-    Github: "https://github.com/Psyduck-m",
-    position: "Outreach Lead",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod justo ut mi ultricies, ut accumsan libero tristique. Vivamus non risus auctor, vestibulum ipsum ac, convallis nisi. Maecenas vitae ullamcorper ex.",
-  },
+
   {
     name: "Anmol Agrawal",
     LinkedIn:
